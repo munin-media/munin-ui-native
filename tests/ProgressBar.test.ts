@@ -4,7 +4,7 @@
  */
 
 import { describe, it, expect } from 'vitest';
-import { computeProgressBarState, getProgressBarAccessibility } from '@munin/ui-core';
+import { computeProgressBarState, getProgressBarAccessibility } from '@munin-media/ui-core';
 
 describe('ProgressBar', () => {
   describe('state computation (via ui-core)', () => {

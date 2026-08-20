@@ -8,8 +8,8 @@ import {
   computeCollectionListState,
   getCollectionListAccessibility,
   getCollectionItemAccessibility,
-} from '@munin/ui-core';
-import type { Collection } from '@munin/core';
+} from '@munin-media/ui-core';
+import type { Collection } from '@munin-media/core';
 
 const makeCollection = (overrides: Partial<Collection> = {}): Collection => ({
   collectionId: `col-${Math.random()}`,

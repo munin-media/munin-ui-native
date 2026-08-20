@@ -1,7 +1,7 @@
 /**
  * CollectionList — React Native renderer.
  * Vertical FlatList with collection items.
- * Consumes computeCollectionListState and getCollectionListAccessibility from @munin/ui-core.
+ * Consumes computeCollectionListState and getCollectionListAccessibility from @munin-media/ui-core.
  */
 
 import React, { useCallback } from 'react';
@@ -13,7 +13,7 @@ import {
   type CollectionListProps as CoreProps,
   type CollectionListState,
   type CollectionDisplayItem,
-} from '@munin/ui-core';
+} from '@munin-media/ui-core';
 import type { CollectionListStyles, CollectionListRenderProps } from './types.js';
 
 export interface CollectionListProps extends CoreProps, CollectionListStyles, CollectionListRenderProps {

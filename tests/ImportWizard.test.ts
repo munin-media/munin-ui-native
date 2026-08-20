@@ -9,7 +9,7 @@ import {
   getImportWizardAccessibility,
   getImportWizardStepAccessibility,
   type ImportWizardInput,
-} from '@munin/ui-core';
+} from '@munin-media/ui-core';
 
 const makeInput = (overrides: Partial<ImportWizardInput> = {}): ImportWizardInput => ({
   props: {

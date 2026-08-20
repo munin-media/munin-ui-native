@@ -7,8 +7,8 @@ import { describe, it, expect } from 'vitest';
 import {
   computeRecommendationCardState,
   getRecommendationCardAccessibility,
-} from '@munin/ui-core';
-import type { Recommendation } from '@munin/core';
+} from '@munin-media/ui-core';
+import type { Recommendation } from '@munin-media/core';
 
 const makeRecommendation = (overrides: Partial<Recommendation> = {}): Recommendation => ({
   titleId: 'title-1',

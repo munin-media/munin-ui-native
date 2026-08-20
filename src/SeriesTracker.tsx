@@ -1,7 +1,7 @@
 /**
  * SeriesTracker — React Native renderer.
  * SectionList with season sections, expandable, episode cells.
- * Consumes computeSeriesTrackerState and getSeriesTrackerAccessibility from @munin/ui-core.
+ * Consumes computeSeriesTrackerState and getSeriesTrackerAccessibility from @munin-media/ui-core.
  */
 
 import React, { useCallback, useState } from 'react';
@@ -14,7 +14,7 @@ import {
   type SeriesTrackerState,
   type SeasonDisplayState,
   type EpisodeDisplayState,
-} from '@munin/ui-core';
+} from '@munin-media/ui-core';
 import type { SeriesTrackerStyles, SeriesTrackerRenderProps } from './types.js';
 
 export interface SeriesTrackerProps extends CoreProps, SeriesTrackerStyles, SeriesTrackerRenderProps {

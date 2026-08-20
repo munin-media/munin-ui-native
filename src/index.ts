@@ -1,5 +1,5 @@
 /**
- * @munin/ui-native — React Native renderer for Munin UI components.
+ * @munin-media/ui-native — React Native renderer for Munin UI components.
  * Headless, unstyled, accessible. Consumers apply their own theme.
  */
 

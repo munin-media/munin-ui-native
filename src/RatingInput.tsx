@@ -1,7 +1,7 @@
 /**
  * RatingInput — React Native renderer.
  * Stars (Pressable row), slider, and numeric variants.
- * Consumes computeRatingInputState and getRatingInputAccessibility from @munin/ui-core.
+ * Consumes computeRatingInputState and getRatingInputAccessibility from @munin-media/ui-core.
  */
 
 import React, { useCallback, useState } from 'react';
@@ -12,7 +12,7 @@ import {
   type RatingInputProps as CoreProps,
   type RatingInputState,
   type RatingResult,
-} from '@munin/ui-core';
+} from '@munin-media/ui-core';
 import type { RatingInputStyles, RatingInputRenderProps } from './types.js';
 
 export interface RatingInputProps extends CoreProps, RatingInputStyles, RatingInputRenderProps {

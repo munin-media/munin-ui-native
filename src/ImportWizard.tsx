@@ -1,7 +1,7 @@
 /**
  * ImportWizard — React Native renderer.
  * Multi-step flow with Back/Next navigation.
- * Consumes computeImportWizardState and getImportWizardAccessibility from @munin/ui-core.
+ * Consumes computeImportWizardState and getImportWizardAccessibility from @munin-media/ui-core.
  */
 
 import React, { useCallback, useState } from 'react';
@@ -15,7 +15,7 @@ import {
   type ImportWizardStep,
   type ImportSource,
   type ImportWizardInput,
-} from '@munin/ui-core';
+} from '@munin-media/ui-core';
 import type { ImportWizardStyles, ImportWizardRenderProps } from './types.js';
 
 export interface ImportWizardProps extends CoreProps, ImportWizardStyles, ImportWizardRenderProps {

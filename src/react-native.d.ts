@@ -1,5 +1,5 @@
 /**
- * Minimal React Native type declarations for @munin/ui-native build.
+ * Minimal React Native type declarations for @munin-media/ui-native build.
  * react-native is a peer dependency — consumers provide the actual implementation.
  * These types are sufficient for the component interfaces we use.
  */

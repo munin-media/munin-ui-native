@@ -1,7 +1,7 @@
 /**
  * ContinueWatching — React Native renderer.
  * Horizontal FlatList with cards, snap-to-item.
- * Consumes computeContinueWatchingState and getContinueWatchingAccessibility from @munin/ui-core.
+ * Consumes computeContinueWatchingState and getContinueWatchingAccessibility from @munin-media/ui-core.
  */
 
 import React, { useCallback } from 'react';
@@ -13,7 +13,7 @@ import {
   type ContinueWatchingProps as CoreProps,
   type ContinueWatchingState,
   type ContinueWatchingItem,
-} from '@munin/ui-core';
+} from '@munin-media/ui-core';
 import type { ContinueWatchingStyles, ContinueWatchingRenderProps } from './types.js';
 
 export interface ContinueWatchingProps extends CoreProps, ContinueWatchingStyles, ContinueWatchingRenderProps {

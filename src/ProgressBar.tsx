@@ -1,7 +1,7 @@
 /**
  * ProgressBar — React Native renderer.
  * Renders a View track with animated View fill.
- * Consumes computeProgressBarState and getProgressBarAccessibility from @munin/ui-core.
+ * Consumes computeProgressBarState and getProgressBarAccessibility from @munin-media/ui-core.
  */
 
 import React, { useEffect, useRef } from 'react';
@@ -11,7 +11,7 @@ import {
   getProgressBarAccessibility,
   type ProgressBarProps as CoreProps,
   type ProgressBarState,
-} from '@munin/ui-core';
+} from '@munin-media/ui-core';
 import type { ProgressBarStyles, ProgressBarRenderProps } from './types.js';
 
 export interface ProgressBarProps extends CoreProps, ProgressBarStyles, ProgressBarRenderProps {

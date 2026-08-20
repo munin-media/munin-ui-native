@@ -4,7 +4,7 @@
  */
 
 import { describe, it, expect } from 'vitest';
-import { computeRatingInputState, getRatingInputAccessibility } from '@munin/ui-core';
+import { computeRatingInputState, getRatingInputAccessibility } from '@munin-media/ui-core';
 
 describe('RatingInput', () => {
   describe('state computation (via ui-core)', () => {

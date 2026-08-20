@@ -1,10 +1,10 @@
-# @munin/ui-native
+# @munin-media/ui-native
 
 React Native renderer for Munin UI components. Headless, unstyled, accessible.
 
 ## Overview
 
-Renders Munin UI components using React Native primitives (`View`, `Text`, `Pressable`, `FlatList`, `SectionList`, `Animated`). Consumes `@munin/ui-core` for state computation and accessibility — no duplicated logic.
+Renders Munin UI components using React Native primitives (`View`, `Text`, `Pressable`, `FlatList`, `SectionList`, `Animated`). Consumes `@munin-media/ui-core` for state computation and accessibility — no duplicated logic.
 
 **Headless/unstyled** — consumers apply their own theme (Tamagui, NativeWind, StyleSheet).
 
@@ -23,7 +23,7 @@ Renders Munin UI components using React Native primitives (`View`, `Text`, `Pres
 ## Installation
 
 ```bash
-yarn add @munin/ui-native
+yarn add @munin-media/ui-native
 ```
 
 ### Peer Dependencies
@@ -32,18 +32,18 @@ yarn add @munin/ui-native
 {
   "react": ">=18.0.0",
   "react-native": ">=0.72.0",
-  "@munin/ui-core": "^0.1.0"
+  "@munin-media/ui-core": "^0.1.0"
 }
 ```
 
 Optional:
-- `@munin/hooks` — for data fetching integration
+- `@munin-media/hooks` — for data fetching integration
 - `react-native-reanimated` — for advanced animations
 
 ## Usage
 
 ```tsx
-import { ProgressBar } from '@munin/ui-native';
+import { ProgressBar } from '@munin-media/ui-native';
 
 <ProgressBar
   percent={0.73}
@@ -58,7 +58,7 @@ import { ProgressBar } from '@munin/ui-native';
 ### Render Props (Full Customization)
 
 ```tsx
-import { ProgressBar } from '@munin/ui-native';
+import { ProgressBar } from '@munin-media/ui-native';
 
 <ProgressBar
   percent={0.73}
@@ -85,9 +85,9 @@ Every sub-element accepts a style override prop:
 ## Architecture
 
 ```
-@munin/ui-core (contracts, state, accessibility)
+@munin-media/ui-core (contracts, state, accessibility)
       ↓ consumed by
-@munin/ui-native (this package — RN primitives)
+@munin-media/ui-native (this package — RN primitives)
       ↓ consumed by
 Your app (applies Tamagui/NativeWind/StyleSheet theme)
 ```

@@ -8,8 +8,8 @@ import {
   computeContinueWatchingState,
   getContinueWatchingAccessibility,
   getContinueWatchingItemAccessibility,
-} from '@munin/ui-core';
-import type { ProgressEntry } from '@munin/core';
+} from '@munin-media/ui-core';
+import type { ProgressEntry } from '@munin-media/core';
 
 const makeEntry = (overrides: Partial<ProgressEntry> = {}): ProgressEntry => ({
   userId: 'user-1',

@@ -1,7 +1,7 @@
 /**
  * RecommendationCard — React Native renderer.
  * Card layout: score + title + tags + reason.
- * Consumes computeRecommendationCardState and getRecommendationCardAccessibility from @munin/ui-core.
+ * Consumes computeRecommendationCardState and getRecommendationCardAccessibility from @munin-media/ui-core.
  */
 
 import React from 'react';
@@ -11,7 +11,7 @@ import {
   getRecommendationCardAccessibility,
   type RecommendationCardProps as CoreProps,
   type RecommendationCardState,
-} from '@munin/ui-core';
+} from '@munin-media/ui-core';
 import type { RecommendationCardStyles, RecommendationCardRenderProps } from './types.js';
 
 export interface RecommendationCardProps extends CoreProps, RecommendationCardStyles, RecommendationCardRenderProps {

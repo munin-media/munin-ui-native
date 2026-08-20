@@ -1,5 +1,5 @@
 /**
- * @munin/ui-native — Style and render prop type definitions.
+ * @munin-media/ui-native — Style and render prop type definitions.
  * All components accept style overrides and render props for full customization.
  */
 
@@ -18,7 +18,7 @@ import type {
   RecommendationCardState,
   ImportWizardState,
   ImportWizardStep,
-} from '@munin/ui-core';
+} from '@munin-media/ui-core';
 
 // --- ProgressBar Styles ---
 

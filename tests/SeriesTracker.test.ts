@@ -8,8 +8,8 @@ import {
   computeSeriesTrackerState,
   getSeriesTrackerAccessibility,
   getSeasonAccessibility,
-} from '@munin/ui-core';
-import type { SeriesProgress } from '@munin/core';
+} from '@munin-media/ui-core';
+import type { SeriesProgress } from '@munin-media/core';
 
 const makeSeries = (overrides: Partial<SeriesProgress> = {}): SeriesProgress => ({
   userId: 'user-1',
