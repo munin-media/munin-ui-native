@@ -1,6 +1,6 @@
 {
   "name": "@munin-media/ui-native",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Native renderer for Munin UI components — headless, unstyled, accessible",
   "type": "module",
   "main": "dist/index.js",
